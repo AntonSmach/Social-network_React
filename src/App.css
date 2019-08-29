@@ -10,20 +10,6 @@
   grid-template-columns: 2fr 10fr;
 }
 
-.header {
-  grid-area: h;
-  background-color: aqua;
-}
-
-.header img {
-  width: 50px;
-}
-
-.nav {
-  grid-area: n;
-  background-color:rgb(186, 226, 43);
-}
-
 .content {
   background-color: brown;
   grid-area:c;
