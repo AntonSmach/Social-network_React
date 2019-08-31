@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/header.jsx';
-import NavBar from './components/navBar';
-import Profile from './components/Profile';
+import Header from './components/Header/header';
+import NavBar from './components/NavBar/navBar';
+import Profile from './components/Profile/Profile';
 
 let App = () => {
   return (
