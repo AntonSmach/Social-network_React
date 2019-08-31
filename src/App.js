@@ -4,13 +4,15 @@ import './App.css';
 import Header from './components/Header/header';
 import NavBar from './components/NavBar/navBar';
 import Profile from './components/Profile/Profile';
+import Dialogs from './components/Dialogs/Dialogs'
 
 let App = () => {
   return (
-    <div className = "app-wrapper">
-        <Header/>
-        <NavBar/>
-        <Profile/>
+    <div className="app-wrapper">
+      <Header />
+      <NavBar />
+      {/* <Profile /> */}
+      <Dialogs />
 
     </div>
   );
