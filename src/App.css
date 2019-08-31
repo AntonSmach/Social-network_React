@@ -10,7 +10,7 @@
   grid-template-columns: 2fr 10fr;
 }
 
-.content {
-  background-color: brown;
+.app-wrapper-content {
+  background-color: rgb(194, 63, 63);
   grid-area:c;
 }

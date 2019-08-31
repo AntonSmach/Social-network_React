@@ -11,9 +11,10 @@ let App = () => {
     <div className="app-wrapper">
       <Header />
       <NavBar />
+      <div className="app-wrapper-content">
       {/* <Profile /> */}
       <Dialogs />
-
+      </div>
     </div>
   );
 };
