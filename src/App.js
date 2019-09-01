@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header/header';
-import NavBar from './components/NavBar/navBar';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 import Dialogs from './components/Dialogs/Dialogs';
 import News from './components/News/News';
@@ -15,13 +15,13 @@ let App = () => {
     <BrowserRouter>
       <div className="app-wrapper">
         <Header />
-        <NavBar />
+        <Navbar />
         <div className="app-wrapper-content">
           <Route component={Profile} path="/profile" />
           <Route component={Dialogs} path="/dialogs" />
-          <Route component={News}    path="/news" />
-          <Route component = {Music} path ='/music'/>
-          <Route component ={Settings} path='/settings'/>
+          <Route component={News} path="/news" />
+          <Route component={Music} path='/music' />
+          <Route component={Settings} path='/settings' />
         </div>
       </div>
     </BrowserRouter>
