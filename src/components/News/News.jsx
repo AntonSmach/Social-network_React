@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Dialogs.module.css';
-const Dialogs = () => {
+import s from './News.module.css';
+const News = () => {
     return (
         <div className = {s.item}>
             News
@@ -8,4 +8,4 @@ const Dialogs = () => {
     );
 };
 
-export default Dialogs;
+export default News;
