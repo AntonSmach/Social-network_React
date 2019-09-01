@@ -20,6 +20,14 @@ const Dialogs = () => {
                     Sergey
                 </div>
             </div>
+            <div className={s.messages}>
+                <div className={s.dialog}>
+                    Hello!
+                </div>
+                <div className={s.dialog}>
+                    Hi!
+                </div>
+            </div>
         </div>
     );
 };
