@@ -17,7 +17,8 @@ const Message = (props) => {
         {props.message}
     </div>
     );
-};
+}
+;
 const Dialogs = () => {
     return (
         <div className={s.dialogs}>

@@ -1,16 +1,12 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts.jsx'
 import s from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
   return (
     <div>
-      <div>
-        <img src="https://thypix.com/wp-content/uploads/2018/05/Sommerlandschaft-Bilder-99.jpg" width="400"></img>
-      </div>
-      <div className={s.item}>
-        ava+discription
-      </div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
