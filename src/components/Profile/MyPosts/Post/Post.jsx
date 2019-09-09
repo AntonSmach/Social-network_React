@@ -7,7 +7,7 @@ const Posts = (props) => {
       <img src="https://5mod.ru/templates/5mod/dleimages/noavatar.png"></img>
       <span> {props.message} </span>
       <div>
-        <span>Like - {props.counts}</span>
+        <span>Like - {props.countsLike}</span>
       </div>
 
     </div>
