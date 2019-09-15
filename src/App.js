@@ -9,16 +9,17 @@ import News from './components/News/News';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
 import { Route, BrowserRouter } from 'react-router-dom';
+import { tsPropertySignature } from '@babel/types';
 
-let App = () => {
+let App = (props) => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
         <Header />
         <Navbar />
         <div className="app-wrapper-content">
-          <Route component={Profile} path="/profile" />
-          <Route component={Dialogs} path="/dialogs" />
+          <Route render={() => <Profile postData={props.postData} />} path="/profile" />
+          <Route render={() => <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData} />} path="/dialogs" />
           <Route component={News} path="/news" />
           <Route component={Music} path='/music' />
           <Route component={Settings} path='/settings' />

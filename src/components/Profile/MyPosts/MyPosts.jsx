@@ -4,7 +4,7 @@ import Post from './Post/Post.jsx'
 
 const MyPosts = (props) => {
 
-  let postElements = props.postData.map( p => (<Post message = {p.message} countsLike = {p.countsLike} />));
+  let postElements = props.postData.map(p => (<Post message={p.message} countsLike={p.countsLike} />));
 
   return (
     <div>
@@ -19,9 +19,7 @@ const MyPosts = (props) => {
           </div>
         </div>
         <div className={s.posts}>
-        {
-          postElements
-        }
+          {postElements}
         </div>
 
       </div>

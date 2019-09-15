@@ -3,17 +3,12 @@ import MyPosts from './MyPosts/MyPosts.jsx'
 import s from './Profile.module.css';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
-const Profile = () => {
-
-  let postData = [
-    { message: "Hello, I learn React!", countsLike: "27" },
-    { message: "Hi, and i also", countsLike: "20" },
-  ];
+const Profile = (props) => {
 
   return (
     <div>
       <ProfileInfo />
-      <MyPosts postData = {postData} />
+      <MyPosts postData = {props.postData} />
     </div>
   );
 
