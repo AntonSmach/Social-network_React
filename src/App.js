@@ -24,8 +24,7 @@ let App = (props) => {
             path="/profile" />
           <Route
             render={() => <Dialogs
-              dialogsData={props.state.messagesPages.dialogsData}
-              messagesData={props.state.messagesPages.messagesData} />}
+              state={props.state.dialogsPages} />}
             path="/dialogs" />
           <Route component={News} path="/news" />
           <Route component={Music} path='/music' />

@@ -5,7 +5,7 @@ let state = {
             { message: "Hi, and i also", countsLike: "20" },
         ]
     },
-    messagesPages: {
+    dialogsPages: {
         messagesData: [
             { message: "Hi" },
             { message: "Yo" },
